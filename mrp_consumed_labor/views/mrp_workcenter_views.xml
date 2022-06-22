@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- Copyright 2020 Sodexis
+	 License OPL-1 (See LICENSE file for full copyright and licensing details). -->
+
+<odoo>
+	<record id="mrp_workcenter_view" model="ir.ui.view">
+		<field name="name">mrp.workcenter.form</field>
+		<field name="model">mrp.workcenter</field>
+		<field name="inherit_id" ref="mrp.mrp_workcenter_view" />
+		<field name="arch" type="xml">
+			<xpath expr="//field[@name='costs_hour']" position="after">
+				<field name="labor_expense_account_id" />
+			</xpath>
+		</field>
+	</record>
+</odoo>
