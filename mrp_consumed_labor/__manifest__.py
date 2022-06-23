@@ -16,6 +16,7 @@
     'data': [
         'views/mrp_workcenter_views.xml',
     ],
+    'images': ['images/main_screenshot.png'],
     'price': 49.95,
     'currency': 'USD',
 }
