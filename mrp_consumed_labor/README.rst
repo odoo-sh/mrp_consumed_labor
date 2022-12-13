@@ -13,6 +13,6 @@ Credits
 
 Contributors
 ------------
-* Sodexis <dev@sodexis.com>
+* Sodexis, Inc <apps@sodexis.com>
 
 This module is maintained by the Sodexis.
