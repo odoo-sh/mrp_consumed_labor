@@ -20,7 +20,4 @@
     'live_test_url': 'https://youtu.be/DnSgXM9fcbo',
     'price': 49.95,
     'currency': 'USD',
-    'cloc_exclude': [
-        "**/*", # can be used to ignore an entire module.
-    ],
 }
